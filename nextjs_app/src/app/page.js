@@ -15,7 +15,8 @@ export default function Home() {
        <button onClick={()=>alert('hello')} >alert</button>
         <Link href='/login'>Go to login page</Link>
         <button onClick={()=>router.push('/login')} >About page</button>
-    
+        <button onClick={()=>router.push('/NestedRoute/NestedHome')} >NestedHome page</button>
+
     </main>
   )
 }
