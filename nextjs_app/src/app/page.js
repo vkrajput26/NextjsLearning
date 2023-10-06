@@ -16,6 +16,7 @@ export default function Home() {
         <Link href='/login'>Go to login page</Link>
         <button onClick={()=>router.push('/login')} >About page</button>
         <button onClick={()=>router.push('/NestedRoute/NestedHome')} >NestedHome page</button>
+        <button onClick={()=>router.push('/Studentlist')} >Studentlist page</button>
 
     </main>
   )
